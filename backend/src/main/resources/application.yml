@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://database-1.cxemwo0iwoq6.ap-southeast-1.rds.amazonaws.com:5432/postgres
+    username: postgres
+    password: kn9bGgY-pbB7BkD
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+application:
+  security:
+    jwt:
+      secret-key: mySecretKey
+      expiration: 86400000 # a day
+      refresh-token:
+        expiration: 604800000 # 7 days
