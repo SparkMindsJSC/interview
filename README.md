@@ -1,4 +1,4 @@
-# SparkMinds Coding Challenge (Java - React)
+# SparkMinds Coding Challenge (NodeJS - React)
 
 ## The case study: Affiliate marketing
 
@@ -25,7 +25,7 @@ The software stores the data in a database and generates the links for seller. T
 
 ## Your Mission
 
-Create a Java backend application and a React frontend application that satisfies all must-have requirements above, plus any nice-to-have requirements you wish to include.
+Create a NodeJS backend application and a React frontend application that satisfies all must-have requirements above, plus any nice-to-have requirements you wish to include.
 
 For that, you'll need to provide a REST-API, set up a database and generate a random refferal code, that unique for each user.
 
@@ -38,7 +38,7 @@ The final delivery must be running with Docker.
 
 ## Tech Requirements
 
-- Use the LTS version of Java 17 and React 18
+- Use the LTS version of NodeJS and React 18
 
 ## Instructions
 
